@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: rgb(61, 190, 255);
+    width: 100%;
+    height: 1008px;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    box-sizing: border-box;
+    position: relative
+}
+
+/* Barra de navegação */
+.barra_de_navegacao {
+    width: auto;
+    position: relative;
+    padding: 18px;
+    margin-bottom: 10.4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box
+}
+
+/* Logotipo */
+
+
+/* Botões clicáveis */
+.clicaveis {
+    display: flex;
+    flex-direction: row;
+    margin-left: 43vw;
+    box-sizing: border-box;
+}
+
+.item {
+    color: #fff;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item>a {
+    font-family: serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contato {
+    margin-right: 45px;
+    padding: 18px;
+    background-color: #fff;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contato>a {
+    font-family: serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* Texto */
+.texto {
+    text-align: center;
+    color: #fff;
+    font-size: 54px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* seta para baixo */
+.seta_baixo {
+    text-align: center;
+    margin-top: 3.1%
+}
+
+/* Laranja cabeçalho */
+.laranja_cabecalho {
+    background-image: url(../imagens/area_d_trabalho/image-header.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 55.13%;
+    box-sizing: border-box;
+}
+
+/* Primeiro quadro */
+.primeiro_quadro {
+    border: 1px solid black;
+    margin: 0;
+    display: inline-block;
+    height: 656.5px;
+}
+
+/* texto */
+.texto {
+    margin: 0;
+}
+
+/* Primeiro bloco de descrição */
+.container {
+    width: 100%;
+    height: 656.25px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+/* Texto */
+.container_texto {
+    width: 50%;
+    height: 656.25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Alinhamento */
+.alinhamento {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-self: center;
+    box-sizing: border-box
+}
+
+.alinhamento>h2 {
+    margin-left: 0;
+    color: #23303E;
+    font-size: 45px;
+    font-family: serif;
+}
+
+.alinhamento>p {
+    font-size: 20px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    color: #818498;
+    text-align: left;
+}
+
+#saiba_mais_1 {
+    border-radius: 10px;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #23303E;
+    font-family: serif;
+    text-decoration: underline #FAD400 5px;
+}
+
+.imagem_ovo {
+    width: 50%;
+    height: 656.5px;
+    background-image: url(../imagens/area_d_trabalho/image-transform.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+/* Segundo container descritivo */
+.imagem_taca {
+    width: 50%;
+    height: 656.5px;
+    background-image: url(../imagens/area_d_trabalho/image-stand-out.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#saiba_mais_2 {
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #23303E;
+    font-family: serif;
+    text-decoration: underline #FE7867 5px;
+
+}
+
+/* Terceiro quadro descritivo */
+.imagem_1 {
+    width: 50%;
+    height: 656.5px;
+    background-image: url(../imagens/area_d_trabalho/image-graphic-design.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.texto_imagem_1 {
+    width: 60%;
+    height: 50%;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.texto_imagem_1>h2 {
+    color: #23303E;
+    font-size: 35px;
+    font-family: Serif;
+    font-weight: 900;
+}
+
+.texto_imagem_1>p {
+    font-size: 20px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    color: #25564B;
+    text-align: center;
+}
+
+
+.imagem_2 {
+    width: 50%;
+    height: 656.5px;
+    background-image: url(../imagens/area_d_trabalho/image-photography.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.texto_imagem_2 {
+    width: 60%;
+    height: 50%;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.texto_imagem_2>h2 {
+    color: #23303E;
+    font-size: 35px;
+    font-family: Serif;
+    font-weight: 900;
+}
+
+.texto_imagem_2>p {
+    font-size: 20px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    color: #25564B;
+    text-align: center;
+}
+
+/* Depoimento de clientes */
+.depoimentos {
+    margin: 108px 0;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box
+}
+
+#titulo_depoimento {
+    color: #818498;
+    font-size: 25px;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.container_depoimentos {
+    height: 50vh;
+    margin: 3% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box
+}
+
+.pessoa {
+    width: 30%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pessoa>img {
+    border-radius: 50%;
+    margin-bottom: 2%;
+    width: 95px;
+    height: 95px;
+}
+
+.pessoa>p {
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: serif;
+    color: #5A636C;
+}
+
+.pessoa>h2 {
+    height: 0.1%;
+}
+
+.imagens {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 0.3%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box
+}
+
+.img_1 {
+    background-image: url(../imagens/area_d_trabalho/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.img_2 {
+    background-image: url(../imagens/area_d_trabalho/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.img_3 {
+    background-image: url(../imagens/area_d_trabalho/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.img_4 {
+    background-image: url(../imagens/area_d_trabalho/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Rodapé */
+.rodape {
+    width: 100%;
+    height: 252px;
+    background-color: #34D5B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 10vw;
+    margin-bottom: 2%;
+}
+
+.botoes {
+    margin-bottom: 2%;
+    padding: 0 1%;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.botao {
+    width: auto;
+    margin: 5%;
+    font-size: 23px;
+    text-decoration: none;
+    color: #5A636C;
+    box-sizing: border-box
+}
+
+/* Redes socias */
+.redes {
+    width: 10vw;
+    height: auto;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede_social {
+    margin: 5%;
+}
